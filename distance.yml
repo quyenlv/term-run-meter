@@ -1,0 +1,13 @@
+textboxes:
+  - title: Distance
+    position: [[9, 8], [166, 23]]
+    rate-ms: 500
+    color: 178
+    sample: cat distance | figlet -f 3d
+    border: false
+  - title: ""
+    position: [[22, 26], [112, 24]]
+    rate-ms: 500
+    color: 178
+    sample: printf "/ %s km" $(cat distance-target) | figlet -f miniwi
+    border: false

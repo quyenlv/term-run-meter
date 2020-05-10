@@ -1,0 +1,7 @@
+textboxes:
+  - title: Pace
+    position: [[0, 3], [81, 39]]
+    rate-ms: 500
+    color: 178
+    sample: cat pace-bar | less
+    border: false

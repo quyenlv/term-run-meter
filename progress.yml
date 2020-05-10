@@ -1,0 +1,13 @@
+gauges:
+  - title: Progress
+    position: [[0, 4], [80, 36]]
+    rate-ms: 500
+    scale: 2
+    color: 178
+    percent-only: true
+    cur:
+        sample: cat counter
+    max:
+        sample: cat counter-target
+    min:
+        sample: echo 0

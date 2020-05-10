@@ -1,0 +1,13 @@
+textboxes:
+  - title: Laps
+    position: [[23, 5], [91, 31]]
+    rate-ms: 500
+    color: 178
+    sample: cat counter | figlet -f 3d
+    border: false
+  - title: ""
+    position: [[33, 26], [71, 24]]
+    rate-ms: 500
+    color: 178
+    sample: printf "/ %s" $(cat counter-target) | figlet -f miniwi
+    border: false
